@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <header></header>
+    <main>
+        <section>
+            <div class="info">
+                <img id="profile-photo" src="/images/photo_2021-09-22_17-58-42.jpg" alt="my photo"/>
+                <div class="info-text">
+                    <h2>Lepessov Daulet</h2>
+                    <p>My name is Daulet, I love coding, books and traveling</p>
+                    <div class="social">
+                        <h3>My social links</h3>
+                        <a href="https://www.instagram.com/lepesov_1/" target="_blank">Instagram</a>
+                        |
+                        <a href="https://t.me/@lepessov_1" target="_blank">Telegram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="card bg-yellow">
+                <h3>Hobbies</h3>
+                <ol class="list">
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                    <li>Coding</li>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div class="card bg-green">
+                <h3>Experience</h3>
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>Software engeneer</td>
+                        <td>Microsoft</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Java developer</td>
+                        <td>Google</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>Programmer</td>
+                        <td>SpaceX</td>
+                        <td>Also 0</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <div class="card bg-red">
+                <h3>My favorite youtubers</h3>
+                <ul class="link-list">
+                    <li><a herf="https://www.youtube.com/channel/UCK5d3n3kfkzlArMccS0TTXA" target="_blank">Alishev</a>
+                    </li>
+                    <li><a herf="https://www.youtube.com/c/VladilenMinin" target="_blank">Vladilen Minin</a></li>
+                    <li><a herf="https://www.youtube.com/c/amigoscode" target="_blank">Amigoscode</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact">
+            <h3>Contact me</h3>
+            <p>FindMeIfYouCan@gmail.com</p>
+        </div>
+    </footer>
+</div>
+</body>
+<!--<link href="styles.css" rel="stylesheet">-->
+<style>
+    .info p {
+        color: gray;
+        margin: 0;
+        font-style: italic;
+    }
+
+    .info {
+        margin-bottom: 20px;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .info-text {
+        margin-left: 40px;
+    }
+
+    .info-text h2 {
+        margin-bottom: 10px;
+    }
+
+    .list li {
+        padding: 5px;
+    }
+
+    .list {
+        padding: 0px 20px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact p {
+        padding-top: 10px;
+    }
+
+    .container {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    body {
+        background-color: lightgray;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    #profile-photo {
+        width: 200px;
+        border-radius: 28px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .card {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+    }
+
+    .bg-yellow {
+        background: antiquewhite;
+    }
+
+    .bg-green {
+        background: aquamarine;
+    }
+
+    .bg-red {
+        background: darksalmon;
+    }
+
+
+    .table {
+        width: 100%;
+    }
+
+    .table td:nth-child(2) {
+        color: gray;
+    }
+
+    .link-list {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .link-list li {
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+
+    .social {
+        margin-top: 50px;
+    }
+</style>
+</html>
