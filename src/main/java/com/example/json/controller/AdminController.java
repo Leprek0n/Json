@@ -36,6 +36,10 @@ public class AdminController {
         userService.save(user);
         return ResponseEntity.ok().build();
     }
+    @GetMapping("{id}")
+    public ResponseEntity<User> getUserById(@PathVariable Long id) {
+        return ResponseEntity.ok(userService.getUserById(id));
+    }
 
 
 }
